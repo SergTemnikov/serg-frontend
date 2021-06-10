@@ -1,0 +1,21 @@
+.header {
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 200px;
+  }
+  &__item {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    a {
+      color: #E8B06E;
+      transition: 0.3s ease all;
+      &:hover {
+        color: #c2d41b;
+      }
+    }
+  }
+}

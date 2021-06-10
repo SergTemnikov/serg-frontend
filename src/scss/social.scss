@@ -1,0 +1,21 @@
+.social {
+  background-color: rgba(0, 0, 0, 0.24);
+  width: 93px;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  &__items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__item {
+    margin: 0px 0px 24px 0px;
+    cursor: pointer;
+    &:last-child {
+      margin: 0px 0px 0px 0px;
+    }
+  }
+}
